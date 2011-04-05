@@ -1,0 +1,24 @@
+# Grove
+
+Invoke DRb services with no configuration
+
+## Example
+
+server.rb:
+
+    require 'lib/grove'
+
+    class Calculator
+      def self.add(a, b)
+        a + b
+      end
+    end
+
+    Grove.run_service(Calculator)
+
+client.rb:
+
+    require 'lib/grove'
+
+    puts Grove::Calculator.add(2, 2)
+
