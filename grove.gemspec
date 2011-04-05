@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.files = [
     "README",
     "Rakefile",
+    "grove.gemspec",
     "lib/grove.rb",
     "test/grove_test.rb",
     "test/helpers.rb"
