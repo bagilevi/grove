@@ -1,8 +1,8 @@
-# Grove
+= Grove
 
-Invoke DRb services with no configuration
+Run and invoke DRb services on the same box with no configuration.
 
-## Example
+== Example
 
 server.rb:
 
@@ -22,3 +22,12 @@ client.rb:
 
     puts Grove::Calculator.add(2, 2)
 
+== Installation
+
+    gem install grove
+
+== License
+
+Grove is released under the GPL license.
+
+Copyright (c) 2011 Levente Bagi
